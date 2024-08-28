@@ -50,10 +50,10 @@ public class BrowserFactory {
 							.setPlatformVersion("8.1.0")//"8.1.0"//11.0
 							*/
 							//.setDeviceName("emulator-5554")
-							.setUdid("R58M54TQWPN")
+							.setUdid("52032936c0e08321")//.setUdid("R58M54TQWPN")
 							.setPlatformName("Android")
-							.setPlatformVersion("11.0")
-							.setDeviceName("SM-A405FN/DS")
+							.setPlatformVersion("8.1.0")//11.0
+							//.setDeviceName("SM-A405FN/DS")
 							.setAdbExecTimeout(Duration.ofSeconds(150))
 							.setAutomationName("UiAutomator2")
 							.setAppPackage("holecek.pavel.MorseCode")
