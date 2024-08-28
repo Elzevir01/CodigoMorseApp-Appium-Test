@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="tests" name="Appium(failed)" verbose="0">
+    <parameter name="nodeUrl" value="http://0.0.0.0:4723/wd/hub"/>
+    <classes>
+      <class name="holecek.pavel.MorseCode.CodigoMorseTest">
+        <methods>
+          <include name="CodigoMorse"/>
+          <include name="buildDriver"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- holecek.pavel.MorseCode.CodigoMorseTest -->
+    </classes>
+  </test> <!-- Appium(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
