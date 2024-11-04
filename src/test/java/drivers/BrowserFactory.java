@@ -22,42 +22,22 @@ public class BrowserFactory {
 	private static DriverFactory getInstance() {
 		return instance;
 	}
-	////CONFIGURACION DE CHROME DRIVER////
-	public WebDriver setDriverChrome(String browser, String nodeURL) throws MalformedURLException{
-		System.out.println(nodeURL);
-		ChromeOptions chromeOptions = new ChromeOptions();
-		driver = new RemoteWebDriver(new URL(nodeURL), chromeOptions);
-		
-		driver.manage().window().maximize();
-		driver.manage().timeouts().scriptTimeout(Duration.ofMinutes(1));
-		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(1));
-		
-		return driver;
-	}
-		////CONFIGURACION DE CHROME DRIVER////
+		////CONFIGURACION DE APPIUM DRIVER////
 		public WebDriver setDriver(String nodeURL) throws MalformedURLException {
 			System.getProperty("java.classpath");
 			new DesiredCapabilities();
 			
 			
 				try {
-						UiAutomator2Options options = new UiAutomator2Options()
+					UiAutomator2Options options = new UiAutomator2Options()
 							.setPlatformName("Android")
-							/*
-							.setDeviceName("SM-J71MN")//"emulator-5554"//"SM-J71MN"
-							.setUdid("52032936c0e08321")
-							.setPlatformVersion("8.1.0")//"8.1.0"//11.0
-							*/
-							//.setDeviceName("emulator-5554")
-							.setUdid("52032936c0e08321")//.setUdid("R58M54TQWPN")
-							.setPlatformName("Android")
-							.setPlatformVersion("8.1.0")//11.0
-							//.setDeviceName("SM-A405FN/DS")
+							.setDeviceName("emulator-5554")
+							.setUdid("emulator-5554")
+							.setPlatformVersion("11.0")
 							.setAdbExecTimeout(Duration.ofSeconds(150))
 							.setAutomationName("UiAutomator2")
-							.setAppPackage("holecek.pavel.MorseCode")
-							.setAppActivity("crc648bbdc909d4b41b63.MainActivity")
+							.setAppPackage("com.samsung.android.calendar")
+							.setAppActivity("com.android.calendar.AllInOneActivity")
 							.setNewCommandTimeout(Duration.ofSeconds(60))
 							.setAdbExecTimeout(Duration.ofSeconds(60))
 							.setChromedriverUseSystemExecutable(true);
@@ -73,7 +53,7 @@ public class BrowserFactory {
 			return driver;
 
 		}
-	////CERRAR Y REMOVER WEBDRIVER/////
+	////CERRAR Y REMOVER DRIVER/////
 	public void removeDriver() {
 		driver.close();
 		driver.quit();

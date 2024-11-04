@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-07T14:02:35 ART" name="TestSuite" finished-at="2024-08-07T14:02:59 ART" duration-ms="23524">
+  <suite started-at="2024-08-28T16:39:58 ART" name="TestSuite" finished-at="2024-08-28T16:40:29 ART" duration-ms="30629">
     <groups>
     </groups>
-    <test started-at="2024-08-07T14:02:35 ART" name="Appium" finished-at="2024-08-07T14:02:59 ART" duration-ms="23524">
+    <test started-at="2024-08-28T16:39:58 ART" name="Appium" finished-at="2024-08-28T16:40:29 ART" duration-ms="30629">
       <class name="holecek.pavel.MorseCode.CodigoMorseTest">
-        <test-method is-config="true" signature="buildDriver(java.lang.String)[pri:0, instance:holecek.pavel.MorseCode.CodigoMorseTest@45b9a632]" started-at="2024-08-07T14:02:35 ART" name="buildDriver" finished-at="2024-08-07T14:02:55 ART" duration-ms="19968" status="PASS">
+        <test-method is-config="true" signature="buildDriver(java.lang.String)[pri:0, instance:holecek.pavel.MorseCode.CodigoMorseTest@45b9a632]" started-at="2024-08-28T16:39:58 ART" name="buildDriver" finished-at="2024-08-28T16:40:24 ART" duration-ms="25778" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buildDriver -->
-        <test-method signature="CodigoMorse()[pri:0, instance:holecek.pavel.MorseCode.CodigoMorseTest@45b9a632]" started-at="2024-08-07T14:02:55 ART" name="CodigoMorse" finished-at="2024-08-07T14:02:59 ART" duration-ms="3353" status="PASS">
+        <test-method signature="CodigoMorse()[pri:0, instance:holecek.pavel.MorseCode.CodigoMorseTest@45b9a632]" started-at="2024-08-28T16:40:24 ART" name="CodigoMorse" finished-at="2024-08-28T16:40:28 ART" duration-ms="4621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CodigoMorse -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:holecek.pavel.MorseCode.CodigoMorseTest@45b9a632]" started-at="2024-08-07T14:02:59 ART" name="afterTest" finished-at="2024-08-07T14:02:59 ART" duration-ms="149" status="FAIL">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:holecek.pavel.MorseCode.CodigoMorseTest@45b9a632]" started-at="2024-08-28T16:40:28 ART" name="afterTest" finished-at="2024-08-28T16:40:29 ART" duration-ms="143" status="FAIL">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
 Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-39-generic', java.version: '21.0.4'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-41-generic', java.version: '21.0.4'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8d694d89-2bb0-4794-8b59-da0e5dc6151f, close {}]
-Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: crc648bbdc909d4b41b63.MainA..., appium:appPackage: holecek.pavel.MorseCode, appium:automationName: UiAutomator2, appium:chromedriverUseSystemExecutable: true, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: crc648bbdc909d4b41b63.MainA..., appPackage: holecek.pavel.MorseCode, automationName: UiAutomator2, chromedriverUseSystemExecutable: true, deviceName: SM-A405FN/DS, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 11.0, udid: R58M54TQWPN}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A405FN, appium:deviceName: R58M54TQWPN, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M54TQWPN, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: R58M54TQWPN, appium:viewportRect: {height: 2024, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8d694d89-2bb0-4794-8b59-da0e5dc6151f]]>
+Command: [8fa11c48-1ded-4393-ab4b-ba8bd99da58e, close {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: crc648bbdc909d4b41b63.MainA..., appium:appPackage: holecek.pavel.MorseCode, appium:automationName: UiAutomator2, appium:chromedriverUseSystemExecutable: true, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: crc648bbdc909d4b41b63.MainA..., appPackage: holecek.pavel.MorseCode, automationName: UiAutomator2, chromedriverUseSystemExecutable: true, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 8.1.0, udid: 52032936c0e08321}, appium:deviceApiLevel: 27, appium:deviceManufacturer: samsung, appium:deviceModel: SM-J710MN, appium:deviceName: 52032936c0e08321, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: 52032936c0e08321, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2, appium:platformVersion: 8.1.0, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:udid: 52032936c0e08321, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 8fa11c48-1ded-4393-ab4b-ba8bd99da58e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
 Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-39-generic', java.version: '21.0.4'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-41-generic', java.version: '21.0.4'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8d694d89-2bb0-4794-8b59-da0e5dc6151f, close {}]
-Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: crc648bbdc909d4b41b63.MainA..., appium:appPackage: holecek.pavel.MorseCode, appium:automationName: UiAutomator2, appium:chromedriverUseSystemExecutable: true, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: crc648bbdc909d4b41b63.MainA..., appPackage: holecek.pavel.MorseCode, automationName: UiAutomator2, chromedriverUseSystemExecutable: true, deviceName: SM-A405FN/DS, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 11.0, udid: R58M54TQWPN}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A405FN, appium:deviceName: R58M54TQWPN, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M54TQWPN, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: R58M54TQWPN, appium:viewportRect: {height: 2024, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8d694d89-2bb0-4794-8b59-da0e5dc6151f
+Command: [8fa11c48-1ded-4393-ab4b-ba8bd99da58e, close {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: crc648bbdc909d4b41b63.MainA..., appium:appPackage: holecek.pavel.MorseCode, appium:automationName: UiAutomator2, appium:chromedriverUseSystemExecutable: true, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: crc648bbdc909d4b41b63.MainA..., appPackage: holecek.pavel.MorseCode, automationName: UiAutomator2, chromedriverUseSystemExecutable: true, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 8.1.0, udid: 52032936c0e08321}, appium:deviceApiLevel: 27, appium:deviceManufacturer: samsung, appium:deviceModel: SM-J710MN, appium:deviceName: 52032936c0e08321, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: 52032936c0e08321, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2, appium:platformVersion: 8.1.0, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:udid: 52032936c0e08321, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 8fa11c48-1ded-4393-ab4b-ba8bd99da58e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
