@@ -36,8 +36,8 @@ public class BrowserFactory {
 							.setPlatformVersion("11.0")
 							.setAdbExecTimeout(Duration.ofSeconds(150))
 							.setAutomationName("UiAutomator2")
-							.setAppPackage("com.samsung.android.calendar")
-							.setAppActivity("com.android.calendar.AllInOneActivity")
+							.setAppPackage("holecek.pavel.MorseCode")
+							.setAppActivity("crc648bbdc909d4b41b63.MainActivity")
 							.setNewCommandTimeout(Duration.ofSeconds(60))
 							.setAdbExecTimeout(Duration.ofSeconds(60))
 							.setChromedriverUseSystemExecutable(true);
